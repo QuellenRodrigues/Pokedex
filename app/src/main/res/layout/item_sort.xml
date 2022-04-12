@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Widget.MaterialComponents.CardView"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort"
+            android:paddingTop="30dp"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:textSize="25sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_pok_mons_alphabetically_or_by_national_pok_dex_number"
+            android:fontFamily="@font/sf_pro_display_regular" />
+
+        <Button
+            android:id="@+id/btn_small"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="17sp"
+            android:text="@string/smallest"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black" />
+
+        <Button
+            android:id="@+id/btn_high"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="17sp"
+            android:text="@string/highest"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/gray" />
+
+        <Button
+            android:id="@+id/btn_a_z"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="17sp"
+            android:text="@string/a_z"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/gray" />
+
+        <Button
+            android:id="@+id/btn_z_a"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="17sp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/z_a"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/gray" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

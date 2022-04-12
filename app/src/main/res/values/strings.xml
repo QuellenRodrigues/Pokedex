@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MyPokedexApp</string>
+    <string name="pok_dex">Pokédex</string>
+    <string name="Pesquisar">What Pokémon are you looking for?</string>
+    <string name="stats">Status</string>
+    <string name="Search">Pesquisar Pokemon...</string>
+    <string name="pesquisar_pokemon">Qual Pokemon você está procurando?</string>
+    <string name="pokemon_imagem">Pokemon imagem</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Sobre</string>
+    <string name="evolution">Evolução </string>
+    <string name="sort_pok_mons_alphabetically_or_by_national_pok_dex_number">
+Classifique os Pokémons em ordem alfabética ou pelo número da Pokédex Nacional!</string>
+    <string name="sort">Ordenar</string>
+    <string name="filters">Filtros</string>
+    <string name="use_advanced_search_to_explore_pok_mon_by_type_weaknes_height_and_more">Use a pesquisa avançada para explorar Pokémon por tipo, fraquezas, altura e muito mais!</string>
+    <string name="button_filter">Botão Filtro</string>
+    <string name="button_generations">Botão Geração</string>
+    <string name="button_sort">Botão Classificar</string>
+    <string name="weaknesses">Fraqueza</string>
+    <string name="icon_for_filter">icon for filter</string>
+    <string name="types">Tipos</string>
+    <string name="the_ranges_shown_on_the_right_are_for_a_level_100_pok_mon_maximum_values_are_base_on_a_beneficial_nature_252_evs_31_lvs_minimum_values_are_base_on_hindering_nature_0_evs_0_lvs">The ranges shown on the right are for a level 100 Pokémon, Maximum values are base on a beneficial nature, 252 Evs, 31 lVs; minimum values are base on hindering nature, 0 Evs, 0 lVs.</string>
+    <string name="the_effectiveness">A eficácia de cada tipo no Charmander.</string>
+    <string name="reset">Resetar</string>
+    <string name="apply">Aplicar</string>
+    <string name="smallest">Menor número Primeiro</string>
+    <string name="z_a">Z-A</string>
+    <string name="a_z">A-Z</string>
+    <string name="highest">Número mais alto</string>
+    <string-array name="rangeSlider">
+    <item>20</item>
+    <item>70</item>
+    </string-array>
+</resources>
